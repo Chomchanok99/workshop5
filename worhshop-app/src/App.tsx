@@ -1,0 +1,13 @@
+// src/App.tsx
+import React from 'react';
+import UserForm from './components/UserForm';
+
+const App: React.FC = () => {
+  return (
+    <div>
+      <UserForm />
+    </div>
+  );
+};
+
+export default App;
